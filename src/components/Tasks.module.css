@@ -1,0 +1,26 @@
+.infoTask{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 46rem;
+    height: 1.9rem;
+}
+
+.tasks{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1.5rem;
+
+    position: absolute;
+    width: 46rem;
+    height: 18rem;
+    left: calc(50% - 46rem/2);
+    top: 18.19rem;
+
+}
+
